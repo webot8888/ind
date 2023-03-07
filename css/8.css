@@ -1,0 +1,59 @@
+.mui-pull-caption{font-size: .28rem;}
+.layui-upload-choose{display:none}
+.layui-layer-content{color:white !important;}
+.mui-scroll-wrapper{height:90%;padding-bottom:40px}
+.mui-pull-bottom-pocket{height:0 !important;}
+
+.chat-list {padding: .5rem 0 0;}
+.chat-list .chat-item{display: block;overflow: hidden;padding:0 .3rem}
+/*鑱婂ぉ鐩掑瓙*/
+.chat-list .chat-item .chat-box{display: flex;padding: .2rem 0;}
+.chat-list .chat-item.chat-other-party .chat-box{justify-content: flex-start;}
+.chat-list .chat-item.chat-our-side .chat-box{justify-content: flex-end;align-items:end}
+/*澶村儚*/
+.chat-list .chat-item .chat-box .user-header{width: .8rem;height: .8rem;overflow: hidden;border-radius: .06rem;background: white;}
+.chat-list .chat-item.chat-other-party .chat-box .user-header{margin-right: .2rem;}
+.chat-list .chat-item.chat-our-side .chat-box .user-header{margin-left: .2rem;}
+/*鑱婂ぉ璁板綍鐩掑瓙*/
+.chat-list .chat-item .chat-box .chat-context{background: white;position: relative;padding: .15rem .2rem;font-size: .3rem;border-radius: .06rem;max-width: 68%;box-sizing: border-box;word-wrap:break-word;word-break:normal; line-height: .4rem;}
+.chat-list .chat-item .chat-box .chat-context:before{position: absolute;content: "";width: .2rem;height: .2rem;background: white;transform: rotate(45deg);top: 20px;margin-top: -.1rem;}
+.chat-list .chat-item .chat-box .chat-context.pd-0:before{background:none;}
+.chat-list .chat-item.chat-other-party .chat-box .chat-context:before{left: -.08rem;}
+.chat-list .chat-item.chat-our-side .chat-box .chat-context:before{right: -.08rem;}
+.chat-list .chat-item .chat-box .chat-context img{max-width: 100%;}
+.mui-zoom-scroller img{background:white;}
+/*鑱婂ぉ鏃堕棿*/
+.chat-time{text-align: center;overflow: hidden;padding: .1rem 0;}
+.chat-time span{background: #CBCBCB;border-radius: .06rem;color: white;padding: .02rem .1rem;font-size: .22rem;}
+
+/*搴曢儴*/
+.footer-content{background: #ececec;padding: .4rem 0;width: 100%;min-height: 1rem;position: fixed;bottom: 0;left: 0;transition: all .3s;z-index:5;transition:all .3s}
+/*杈撳叆妗嗙洅瀛�*/
+.entry-box .input-box {width: 80%;border-radius: .08rem;flex: 2;display: flex;background: white;overflow: hidden;padding: .2rem;}
+.entry-box .input-box .entry-int{flex: 1;border: 0px;outline: none;max-height: .8rem;min-height:.4rem;overflow: hidden;line-height: .3rem;font-size: .28rem}
+.ico.ico_smail{margin: 0 .2rem;}
+/*鍙戦€佸浘鐗�*/
+.entry-detail-list{display: block;overflow: hidden;margin: .4rem -.3rem .2rem;padding: .1rem .3rem;border-top: .1px solid #FFFFFF;}
+.entry-detail-list li{width: 12%;margin: .1rem .2rem;float: left;position: relative;}
+.entry-detail-list li .ico-box{background: white;border-radius: .2rem;width: 100%;height: .8rem;}
+.entry-detail-list li span{font-size: .22rem;color: #666;margin-top: .1rem;}
+/*琛ㄦ儏鐩掑瓙*/
+.emoji-cont{display: block !important;}
+.emoji-cont ul{height: 2.8rem;overflow-y:scroll; margin-top:.2rem}
+.emoji-cont ul li{float: left;height: .6rem;width:10%;box-sizing:border-box;text-align:center;padding:.05rem}
+.emoji-icon {width:30px;height:30px}
+/*婊氬姩鏉�*/
+.emoji-cont ul::-webkit-scrollbar{width:.05rem;height:.2.8rem;border-radius:.1rem;background:#eee;}
+.emoji-cont ul::-webkit-scrollbar-thumb{background-color:#ccc;background-clip:padding-box;border-radius:.1rm;min-height:2rem;}
+.emoji-cont ul::-webkit-scrollbar-thumb:hover{background-color:#ccc;border-radius:.1rem;}
+/*鍙戦€佹寜閽�*/
+.entry-box .button input{padding: .1rem .2rem;background: #215bff;color: white;border-radius: .06rem;border: none;}
+
+/*涓婁紶鍥剧墖*/
+.fileInput{display: block;height: .7rem;width:100%;overflow: hidden;opacity: 0;filter: alpha(opacity=0);position: absolute;}
+
+/*闀挎寜澶嶅埗*/
+.popContainer{position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 9999;background: rgba(0, 0, 0, 0.5);}
+.popBottom{position: fixed;left: 0;right: 0;bottom: .6rem;width:98%;height:2rem;margin:0 auto;text-align: center;z-index: 22222222;}
+.copy{width:100%;height:.8rem;background: #fff;border-radius: 4px;line-height: .8rem;margin-bottom: .1rem;}
+.cancel{width:100%;height:.8rem;line-height: .8rem;background: #fff;border-radius: 4px;}
